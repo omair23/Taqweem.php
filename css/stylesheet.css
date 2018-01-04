@@ -1,0 +1,611 @@
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+     background-color: #fff; 
+}
+
+#service .service-tab ul {
+    float: left;
+    list-style: outside none none;
+    padding: 0;
+    margin-right: 0px;
+    max-width: 50%;
+}
+.tab-content>.active {
+    display: inline-block;
+    float: right;
+    max-width: 400px;
+    margin-right: 150px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1FA154;
+    border-color: #1FA154;
+	}
+	
+.btn-primary:hover,
+.btn-primary:focus
+{
+color: #fff;
+    background-color: #88E0AC;
+    border-color: #88E0AC;
+}
+
+#header{
+padding-bottom:0px;
+}
+
+
+
+
+
+.form-control:focus{
+border-color: #88E0AC;
+}
+	
+.form-signin{
+
+margin-right:auto;
+margin-left:auto;
+}
+
+.teb-icon-edit {
+    height: 100px;
+    width: 170px;
+    margin: 0 auto;
+    color: #5DCA88;
+}
+
+.block-right{
+width:100px;
+float:right;
+
+}
+
+
+
+
+@media screen and (min-width: 992px){
+.container {
+    width: 1200px;
+}
+
+.Must img{
+height:440px; width:450px; margin:50px;
+}
+.nav-logo img{
+max-width: 40%;
+min-width: 150px;
+height: auto;
+float:left;
+}
+
+
+
+.navbar-nav{
+float:right;
+margin-top:70px;
+
+
+}
+.badhon-tab{
+margin-top:50px;
+}
+
+.badhon-tab li img{
+margin-right:20px;
+}
+
+.tab-pane{
+margin-right:100px;
+}
+
+.perpetual-times {
+	display:inline-block; 
+	width:35%;
+	margin-left:80px;
+	padding-bottom:0px;
+	padding-top:30px;
+	}
+
+	.salaah-times{
+	display:inline-block; 
+	float:right;
+	width:55%; 
+	
+	padding-bottom:0px;
+	padding-top:20px;
+	margin-top:10px;
+	}
+	
+	.masjid-information{
+	
+	width: 90%; 
+	background-color: White; 
+	border-color: rgb(204, 204, 204); 
+	border-width: 1px; 
+	border-style: none; 
+	margin-left:40px;
+	color: Black; 
+	text-align:center; 
+	
+	
+	}
+	
+	.map{
+	margin-left:90px; 
+	margin-right:50px; 
+
+	
+	}
+	
+	#map{
+	
+	
+	width: 700px; 
+	height: 350px; 
+	padding:30px; 
+	
+	
+	
+	}
+	
+	#ptimes{
+	
+	
+	display:inline-block; 
+	float:left;
+	width:30%;
+	padding:30px;
+	margin-top:25px;
+	
+	
+	
+	
+	}
+	#directionsPanel{
+	display:inline-block;
+	
+	width:250px;
+	height:100%;
+	margin-top:40px; 
+	margin-left:130px;
+	
+	
+	
+	}
+
+}
+
+
+@media screen and (max-width: 992px){
+
+
+#service .service-tab ul {
+    float: left;
+    list-style: outside none none;
+    padding: 0;
+    margin-right: 0px;
+   max-width: 100%; 
+}
+#service .service-tab ul li {
+    border-right: none;
+}
+
+.tab-content>.active {
+    display: inline-block;
+    float:left;
+	margin-top:20px;
+    max-width: 400px;
+    margin-right: 2px;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+    margin-top: 0px;
+    /* width: 70%; */
+    padding-left: 20px;
+    /* padding-right: 100px; */
+}
+.nav-logo img{
+max-width: 220px;
+float:left;
+}
+
+.Must img{
+height:440px; width:450px; margin:50px;
+}
+
+
+
+.navbar-default ,
+ .navbar-collapse{
+ margin-top:0px;
+ 
+ }
+
+}
+.badhon-tab{
+margin-top:50px;
+}
+
+.badhon-tab li img{
+margin-right:20px;
+}
+
+.tab-pane{
+margin-right:100px;
+}
+
+.perpetual-times {
+	display:inline-block; 
+	width:300px;
+	
+	
+	padding-bottom:0px;
+	padding-top:30px;
+	
+	}
+
+	.salaah-times{
+	
+	
+	width:450px; 
+	
+	padding-bottom:0px;
+	padding-top:20px;
+	margin-top:10px;
+	margin-right:40px;
+	
+	
+	}
+	
+	.masjid-information{
+	
+	width: 90%; 
+	background-color: White; 
+	border-color: rgb(204, 204, 204); 
+	border-width: 1px; 
+	border-style: none; 
+	
+	color: Black; 
+	text-align:center; 
+	
+	
+	}
+	
+	.map{
+	 
+	margin-right:50px; 
+
+	
+	}
+	
+	#map{
+	
+	
+	width: 600px; 
+	height: 350px; 
+	padding:30px; 
+	
+	
+	
+	}
+	
+	#ptimes{
+	
+	
+	display:inline-block; 
+	float:left;
+	width:30%;
+	padding:30px;
+	margin-top:25px;
+	
+	
+	
+	
+	}
+	#directionsPanel{
+	display:inline-block;
+	
+	width:250px;
+	height:100%;
+	margin-top:40px; 
+	margin-left:130px;
+	
+	
+	
+	}
+	
+
+}
+
+@media screen and (max-width: 768px){
+
+
+
+
+	.perpetual-times {
+	display:inline-block; 
+	width:300px;
+	
+	
+	padding-bottom:0px;
+	padding-top:30px;
+	margin-left:10%;
+	}
+
+	.salaah-times{
+	
+	
+	width:450px; 
+	
+	padding-bottom:0px;
+	padding-top:20px;
+	margin-top:10px;
+	margin-left:10%;
+	
+	}
+	
+	.nav-logo img{
+	width: 220px;
+	margin-left:70px;
+	
+	}
+	
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    margin-top: 20px;
+	}
+	.navbar-collapse{
+	max-height: 340px;
+    
+    padding-left: 15px;
+    overflow-x: visible;
+    
+	}
+	.collapse{
+	margin-right:300px;
+	}
+	
+
+	#map{
+	float:none; 
+	width:50%;
+	width: 500px; 
+	height: 300px; 
+	padding:30px; 
+	display:in-line block;
+	}
+}
+
+@media screen and (max-width: 650px){
+
+.perpetual-times {
+	display:inline-block; 
+	max-width:90%;
+	
+	
+	padding-bottom:0px;
+	padding-top:30px;
+	margin-left:10%;
+	}
+
+	.salaah-times{
+	
+	
+	max-width:80%; 
+	
+	padding-bottom:0px;
+	padding-top:20px;
+	margin-top:10px;
+	margin-left:10%;
+	
+	}
+#map{
+	float:none; 
+	width:50%;
+	width: 400px; 
+	height: 250px; 
+	padding:30px; 
+	display:in-line block;
+	}
+}
+
+@media screen and (max-width: 560px){
+#map{
+	float:none; 
+	width:50%;
+	width: 320px; 
+	height: 250px; 
+	padding:30px; 
+	display:in-line block;
+	}
+	
+	.Must img {
+    height: 440px;
+    width: 450px;
+    margin: 5px;
+	}
+}
+
+
+@media screen and (max-width: 460px){
+.nav-logo img{
+width: 220px;
+margin-left:70px;
+}
+
+	#map{
+	float:none; 
+	width:50%;
+	width: 250px; 
+	height: 250px; 
+	padding:30px; 
+	display:in-line block;
+	}
+}
+
+@media screen and (max-width: 392px){
+.nav-logo img{
+width: 220px;
+margin-left:20px;
+}
+	#map{
+	float:none; 
+	width:50%;
+	width: 200px; 
+	height: 250px; 
+	padding:30px; 
+	display:in-line block;
+	}
+	
+	.carousel{
+	display:none;
+	}
+	
+	
+}
+
+@media screen and (max-width: 80px){
+ 
+	#map{
+	float:none; 
+	width:50%;
+	width: 200px; 
+	height: 250px; 
+	padding:30px; 
+	display:in-line block;
+	}
+	
+	
+	
+	
+}
+
+
+
+
+th{
+text-align:center;
+
+}
+
+.search-filtering{
+padding:20px;
+}
+
+
+
+.nav-bar-header {
+width:300px;
+}
+
+
+
+Style Attribute {
+    background-color: White;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    border-style: none;
+    border-collapse: collapse;
+    color: #777;
+}
+
+.panel-body h4{
+color:#88E0AC;
+}
+
+
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td {
+    padding: 10px;
+}
+
+.navbar-default 
+.navbar-collapse{
+width:950px;
+}
+
+
+
+.panel-default>.panel-heading {
+    color: #FFF;
+    background-color: #1FA154;
+    border-color: #fff;
+	padding:20px;
+}
+
+.navbar-default .navbar-nav > li > a{
+font-size:20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+color:#5DCA88;
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+color:#5DCA88;
+}
+
+#service {
+padding: 10px;
+}
+
+.service-header > h1{
+margin-top:20px;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.0001) 0),color-stop(rgba(0,0,0,0.5) 100%));
+    background-image:  none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#80000000',GradientType=1);
+}
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.5) 0),color-stop(rgba(0,0,0,0.0001) 100%));
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000',endColorstr='#00000000',GradientType=1);
+}
+
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+    right: 50%;
+	background-color:#5DCA88;
+	padding:5px;
+	padding-right:25px;
+}
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    left: 50%;
+	background-color:#5DCA88;
+	padding:5px;
+	padding-right:25px;
+}
+
+
+
+
+@media (min-width: 768px){
+
+.navbar-header {
+float: left;
+width:200px;
+}
+
+}
+
+#timetable{
+
+}
+
+
